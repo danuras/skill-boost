@@ -19,9 +19,9 @@
     <title>SkillBoost</title>
 </head>
 
-<body>
+<body id="home">
     {{-- nav --}}
-    <nav class="navbar navbar-expand-lg navbar-dark shadow">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand p-0" href="#">
                 <img src="{{ asset('logo.png') }}" alt="logo" height="40">
@@ -33,16 +33,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item pe-3">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link active" href="#home">Home</a>
                     </li>
                     <li class="nav-item pe-3">
-                        <a class="nav-link active" href="#">Layanan</a>
+                        <a class="nav-link active" href="#layanan">Layanan</a>
                     </li>
                     <li class="nav-item pe-3">
-                        <a class="nav-link active" href="#">Testimoni</a>
+                        <a class="nav-link active" href="#testimoni">Testimoni</a>
                     </li>
                     <li class="nav-item pe-3">
-                        <a class="nav-link active" href="#">Kontak</a>
+                        <a class="nav-link active" href="#go-kontak">Kontak</a>
                     </li>
                     <li class="nav-item">
                         <button id="btn-auth">
@@ -63,7 +63,7 @@
     {{-- hero --}}
     <section id="hero">
         <div class="container-fluid">
-            <div id="diskon" class="row">
+            <div id="diskon" class="row pt-2">
                 <div class="col-md text-center">
                     <p class="align-text-bottom">Gabung bersama kami sekarang. <a href="">Dapatkan 90% diskon
                             pengguna baru</a></p>
@@ -113,7 +113,7 @@
     <section id="layanan">
         <div class="container">
             <div class="row text-center">
-                <div class="col">
+                <div class="col pt-5">
                     <h2 class="text-light">Layanan</h2>
                 </div>
             </div>
@@ -205,7 +205,7 @@
         <div class="container">
             <div class="row text-center mb-4">
                 <div class="col">
-                    <h2>Kontak</h2>
+                    <h2 id="go-kontak" class="pt-5">Kontak</h2>
                 </div>
             </div>
             <div class="row">
