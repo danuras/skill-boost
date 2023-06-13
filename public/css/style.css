@@ -39,6 +39,7 @@ nav ul li a:hover:not(.auth) {
 /* hero */
 #hero {
     background-color: var(--mint-cream);
+    padding-top: 58px;
 }
 
 #hero .container {
