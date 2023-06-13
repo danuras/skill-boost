@@ -23,7 +23,7 @@
     {{-- nav --}}
     <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand p-0" href="#">
+            <a class="navbar-brand p-0" href="#home">
                 <img src="{{ asset('logo.png') }}" alt="logo" height="40">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
