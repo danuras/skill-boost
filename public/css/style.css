@@ -1,0 +1,148 @@
+:root {
+    --prussia-blue: #273043;
+    --cool-gray: #9197ae;
+    --mint-cream: #eff6ee;
+    --imperial-red: #f02d3a;
+    --rojo: #dd0426;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* nav */
+nav {
+    background-color: var(--prussia-blue);
+}
+
+nav ul li a:hover:not(.auth) {
+    color: gray !important;
+}
+
+#btn-auth {
+    border-width: 0;
+    border-radius: 20px;
+    background-color: var(--imperial-red);
+    width: 80px;
+    margin-right: 5px;
+}
+
+#btn-auth a {
+    color: white;
+}
+
+#btn-auth:hover {
+    background-color: var(--rojo);
+}
+/* nav end*/
+
+/* hero */
+#hero {
+    background-color: var(--mint-cream);
+}
+
+#hero .container {
+    padding-top: 80px;
+}
+
+#diskon {
+    background-color: var(--cool-gray);
+}
+
+#diskon p {
+    color: black;
+}
+
+#diskon a {
+    color: black;
+    font-weight: bold;
+}
+
+#headline {
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+#copywriting {
+    padding-top: 10px;
+}
+
+#btn-call {
+    background-color: var(--imperial-red);
+    border-width: 0;
+    border-radius: 10px;
+    height: 40px;
+}
+
+#btn-call a {
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#btn-call:hover {
+    box-shadow: var(--imperial-red) 0 0 0 1.5px inset,
+        rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+        var(--imperial-red) 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+#btn-call:active {
+    box-shadow: var(--imperial-red) 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.c-inner {
+    width: 200px;
+}
+
+.c-item {
+    width: 200px;
+}
+
+.c-img {
+    width: 100%;
+}
+/* hero end*/
+
+/* layanan */
+#layanan {
+    background-color: var(--cool-gray);
+    /* background: linear-gradient(to bottom, var(--cool-gray) 80%, var(--mint-cream)); */
+}
+
+#layanan p {
+    font-size: 300pt;
+}
+/* layanan end*/
+
+/* testimoni */
+#testimoni {
+    background-color: var(--cool-gray);
+    padding-bottom: 300px;
+}
+
+#inner-testimoni {
+    background-color: var(--mint-cream);
+    border-radius: 100px;
+}
+
+.card {
+    min-height: 500px;
+    max-height: 500px;
+}
+/* testimoni end */
+
+/* kontak */
+#kontak {
+    background-color: var(--mint-cream);
+}
+/* kontak end */
+
+/* footer */
+footer {
+    background-color: var(--prussia-blue);
+}
+/* footer end */
