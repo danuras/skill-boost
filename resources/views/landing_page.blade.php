@@ -91,10 +91,10 @@
                                 <img src="{{ asset('assets/python.png') }}" class="d-block w-100 c-img" alt="">
                             </div>
                             <div class="carousel-item c-item">
-                                <img src="{{ asset('assets/python.png') }}" class="d-block w-100 c-img" alt="">
+                                <img src="{{ asset('assets/dart.png') }}" class="d-block w-100 c-img" alt="">
                             </div>
                             <div class="carousel-item c-item">
-                                <img src="{{ asset('assets/python.png') }}" class="d-block w-100 c-img" alt="">
+                                <img src="{{ asset('assets/php.png') }}" class="d-block w-100 c-img" alt="">
                             </div>
                         </div>
                     </div>
@@ -117,9 +117,12 @@
                     <h2 class="text-light">Layanan</h2>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-md">
-                    <p class="text-light">:v</p>
+            <div class="row text-center pt-3 pb-5">
+                <div class="col-md-6">
+                    <p class="text-light">Pelatihan skill yang bisa digunakan oleh seluruh pelajar agar mereka mendapatkan skill yang relevan bagi dunia kerja.</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-light">Training skill bagi karyawan perusahaan.</p>
                 </div>
             </div>
         </div>
