@@ -18,11 +18,14 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCXQGF2Q3H"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-KCXQGF2Q3H');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-KCXQGF2Q3H');
     </script>
 
     <title>SkillBoost</title>
@@ -126,12 +129,16 @@
                     <h2 class="text-light">Layanan</h2>
                 </div>
             </div>
-            <div class="row text-center pt-3 pb-5">
-                <div class="col-md-6">
-                    <p class="text-light">Pelatihan skill yang bisa digunakan oleh seluruh pelajar agar mereka mendapatkan skill yang relevan bagi dunia kerja.</p>
+            <div class="row d-flex justify-content-around pt-3 pb-5">
+                <div class="col-md-5">
+                    <p class="text-light" style="text-align: justify">Pelatihan skill yang bisa digunakan oleh seluruh
+                        pelajar agar mereka
+                        mendapatkan skill yang relevan bagi dunia kerja.</p>
                 </div>
-                <div class="col-md-6">
-                    <p class="text-light">Training skill bagi karyawan perusahaan.</p>
+                <div class="col-md-5">
+                    <p class="text-light" style="text-align: justify">Pelatihan khusus untuk perusahaan. Kami memahami
+                        pentingnya pengembangan karyawan dalam mencapai kesuksesan bisnis. Oleh karena itu, kami
+                        menyediakan program pelatihan yang disesuaikan dengan kebutuhan dan tujuan perusahaan Anda.</p>
                 </div>
             </div>
         </div>
